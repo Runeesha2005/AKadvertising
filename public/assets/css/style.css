@@ -160,8 +160,8 @@
     width: 3.5rem;
     height: 3.5rem;
     border-radius: 3.5rem;
-    background-color: var(--primary);
-    border: 15px solid var(--primary);
+    background-color: var(--secondary);
+    border: 15px solid var(--secondary);
 }
 
 @media (max-width: 768px) {
@@ -200,7 +200,7 @@
 }
 
 .feature-item {
-    border-color: rgba(0, 0, 0, .03) !important;
+    border-color: red !important;
 }
 
 
@@ -596,4 +596,8 @@
 
 .copyright a:hover {
     color: var(--primary) !important;
+}
+
+.container-py-3 {
+    color: #000;
 }

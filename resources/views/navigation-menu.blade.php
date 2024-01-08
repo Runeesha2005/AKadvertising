@@ -1,4 +1,4 @@
-{{-- <nav x-data="{ open: false }" class="bg-white border-b border-gray-100">
+ {{-- <nav x-data="{ open: false }" class="bg-white border-b border-gray-100">
     <!-- Primary Navigation Menu -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
@@ -168,8 +168,8 @@
         </div>
         @endauth
     </div>
-</nav> --}}
-<!-- Navbar Start -->
+</nav> -- --}}
+<!-- Navbar Start --> 
 <div class="container-fluid bg-white sticky-top">
     <div class="container">
         <nav class="navbar navbar-expand-lg bg-white navbar-light p-lg-0">
@@ -186,6 +186,44 @@
                     <a href="/about" class="nav-item nav-link">About</a>
                     <a href="service.html" class="nav-item nav-link">Services</a>
                     <a href="project.html" class="nav-item nav-link">Projects</a>
+
+                    {{-- @if (Route::has('login'))
+                    <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
+                        @auth
+                             <a href="{{ url('/dashboard') }}" class="font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Dashboard</a> 
+                         @else
+                            <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Log in</a>
+    
+                            @if (Route::has('register'))
+                                <a href="{{ route('register') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Register</a>
+                            @endif
+                        @endauth
+                    </div>
+                @endif --}}
+
+
+                @if (Route::has('login'))
+    <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
+        @auth
+            <a href="{{ url('/dashboard') }}" class="font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Dashboard</a> 
+            <form method="POST" action="{{ route('logout') }}" class="inline-block">
+                @csrf
+                <button type="submit" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Logout</button>
+            </form>
+        @else
+            <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Log in</a>
+
+            @if (Route::has('register'))
+                <a href="{{ route('register') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Register</a>
+            @endif
+        @endauth
+    </div>
+@endif
+
+
+
+
+
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu bg-light rounded-0 rounded-bottom m-0">
@@ -198,11 +236,12 @@
                     </div>
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
-                <div class="ms-auto d-none d-lg-block">
+                 <div class="ms-auto d-none d-lg-block">
                     <a href="" class="btn btn-primary rounded-pill py-2 px-3">Get A Quote</a>
                 </div>
+                  
             </div>
         </nav>
     </div>
 </div>
-<!-- Navbar End -->
+<!-- Navbar End --> 

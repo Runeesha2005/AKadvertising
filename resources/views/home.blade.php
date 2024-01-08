@@ -117,19 +117,18 @@
                 <div class="col-lg-6 pt-lg-5 wow fadeIn" data-wow-delay="0.5s">
                     <div class="bg-white rounded-top p-5 mt-lg-5">
                         <p class="fs-5 fw-medium text-primary">About Us</p>
-                        <h1 class="display-6 mb-4">The Best Marketing Agency to Improve Your Business</h1>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet
-                            diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</p>
+                        <h1 class="display-6 mb-4">The Best Advertising Agency to Improve Your Business</h1>
+                        <p class="mb-4">AK Advertising: Your Path to Prosperity - The Best Advertising Agency to Elevate Your Business Success</p>
                         <div class="row g-5 pt-2 mb-5">
                             <div class="col-sm-6">
                                 <img class="img-fluid mb-4" src="img/icon/icon-5.png" alt="">
                                 <h5 class="mb-3">Managed Services</h5>
-                                <span>Clita erat ipsum et lorem et sit sed stet lorem</span>
+                                <span>Elevating Your Success with Seamless Managed Services, Crafting Campaigns Tailored to Your Unique Vision.</span>
                             </div>
                             <div class="col-sm-6">
                                 <img class="img-fluid mb-4" src="img/icon/icon-2.png" alt="">
                                 <h5 class="mb-3">Dedicated Experts</h5>
-                                <span>Clita erat ipsum et lorem et sit sed stet lorem</span>
+                                <span>Our dedicated experts fuel your success with strategic insights, creative brilliance, and unwavering commitment to your brand's triumph.</span>
                             </div>
                         </div>
                         <a class="btn btn-primary rounded-pill py-3 px-5" href="">Explore More</a>
@@ -168,7 +167,7 @@
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <p class="fs-5 fw-medium text-primary">Our Services</p>
-                <h1 class="display-5 mb-5">Digital Marketing Services that We Offer</h1>
+                <h1 class="display-5 mb-5">Advertising Services that We Provide</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -178,9 +177,8 @@
                                 style="width: 64px; height: 64px;">
                                 <img class="img-fluid" src="img/icon/icon-5.png" alt="Icon">
                             </div>
-                            <h5 class="mb-3">Digital Marketing</h4>
-                                <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
-                                    stet</p>
+                            <h5 class="mb-3">Billboard Advertising</h4>
+                                <p class="mb-0">Capture attention with our impactful billboard advertising services. Elevate your brand presence through strategic placements and compelling visuals. Stand out with AK Advertising!</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
                             <a class="text-primary fw-medium" href="">Read More<i
@@ -195,9 +193,8 @@
                                 style="width: 64px; height: 64px;">
                                 <img class="img-fluid" src="img/icon/icon-6.png" alt="Icon">
                             </div>
-                            <h5 class="mb-3">Internet Marketing</h4>
-                                <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
-                                    stet</p>
+                            <h5 class="mb-3">Digital Printing</h4>
+                                <p class="mb-0">Experience vibrant visuals with our Digital Printing services. Precision and quality come together to bring your designs to life effortlessly.</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
                             <a class="text-primary fw-medium" href="">Read More<i
@@ -212,9 +209,8 @@
                                 style="width: 64px; height: 64px;">
                                 <img class="img-fluid" src="img/icon/icon-7.png" alt="Icon">
                             </div>
-                            <h5 class="mb-3">Content Marketing</h4>
-                                <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
-                                    stet</p>
+                            <h5 class="mb-3">Artwork Designing</h4>
+                                <p class="mb-0">Elevate your brand with our Artwork Designing services. Creative excellence meets strategic vision to craft visually stunning and impactful designs.</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
                             <a class="text-primary fw-medium" href="">Read More<i
@@ -229,9 +225,8 @@
                                 style="width: 64px; height: 64px;">
                                 <img class="img-fluid" src="img/icon/icon-8.png" alt="Icon">
                             </div>
-                            <h5 class="mb-3">Social Marketing</h4>
-                                <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
-                                    stet</p>
+                            <h5 class="mb-3">Company Branding</h4>
+                                <p class="mb-0">Craft a compelling brand identity with our Company Branding services. We blend creativity and strategy to ensure your brand resonates authentically.</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
                             <a class="text-primary fw-medium" href="">Read More<i
@@ -246,9 +241,8 @@
                                 style="width: 64px; height: 64px;">
                                 <img class="img-fluid" src="img/icon/icon-9.png" alt="Icon">
                             </div>
-                            <h5 class="mb-3">B2B Marketing</h4>
-                                <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
-                                    stet</p>
+                            <h5 class="mb-3">Dealer Conventions</h4>
+                                <p class="mb-0">Transform dealer events into dynamic brand experiences. Our Dealer Conventions services create engaging environments that drive connections and elevate your brand.</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
                             <a class="text-primary fw-medium" href="">Read More<i
@@ -263,9 +257,8 @@
                                 style="width: 64px; height: 64px;">
                                 <img class="img-fluid" src="img/icon/icon-10.png" alt="Icon">
                             </div>
-                            <h5 class="mb-3">E-mail Marketing</h4>
-                                <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
-                                    stet</p>
+                            <h5 class="mb-3">Event Management</h4>
+                                <p class="mb-0">Elevate your events with our expert Event Management services. From planning to execution, we create memorable experiences that resonate and inspire.</p>
                         </div>
                         <div class="service-btn rounded-0 rounded-bottom">
                             <a class="text-primary fw-medium" href="">Read More<i
@@ -299,8 +292,8 @@
                         </div>
                     </div>
                     <div class="p-4">
-                        <a class="d-block h5" href="">Data Analytics & Insights</a>
-                        <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span>
+                        <a class="d-block h5" href="">AMARON DEALER CONVENTION</a>
+                        <span>Successfully managing Amaron Dealer Convention in 2016 marked the beginning of a lasting partnership. With five consecutive years of excellence, we continue to elevate their events with expertise and precision.</span>
                     </div>
                 </div>
                 <div class="project-item mb-5">
@@ -314,8 +307,8 @@
                         </div>
                     </div>
                     <div class="p-4">
-                        <a class="d-block h5" href="">Marketing Content Strategy</a>
-                        <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span>
+                        <a class="d-block h5" href="">MAXXIS VEHICLE BRANDING CAMPAIGN</a>
+                        <span>For four years, we've proudly collaborated with Maxxis, a renowned tire brand, enhancing their brand visibility through impactful vehicle branding. Our partnership thrives on creativity and success.</span>
                     </div>
                 </div>
                 <div class="project-item mb-5">
@@ -329,8 +322,8 @@
                         </div>
                     </div>
                     <div class="p-4">
-                        <a class="d-block h5" href="">Business Target Market</a>
-                        <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span>
+                        <a class="d-block h5" href="">EMBOSSED NAME BOARDS FOR SCHOOLS</a>
+                        <span>Elevating education in Sri Lanka, our Embossed Name Board Campaign adorned nearly 30 billboards for government-owned schools, fostering recognition and community pride in major areas</span>
                     </div>
                 </div>
                 <div class="project-item mb-5">
@@ -344,8 +337,8 @@
                         </div>
                     </div>
                     <div class="p-4">
-                        <a class="d-block h5" href="">Social Marketing Strategy</a>
-                        <span>Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem</span>
+                        <a class="d-block h5" href="">DEALER BOARDS</a>
+                        <span>For over 6 years, we've been the trusted creator of Dealer Boards for renowned companies in Sri Lanka like Amaron, Esdee, Maxxis, maintaining a steadfast partnership in their advertising journey</span>
                     </div>
                 </div>
             </div>
@@ -369,7 +362,7 @@
                         <span class="btn-lg-square bg-primary" style="width: 55px; height: 55px;">
                             <i class="fa fa-phone-alt text-white"></i>
                         </span>
-                        <span class="fs-5 fw-medium mx-4">+012 345 6789</span>
+                        <span class="fs-5 fw-medium mx-4">+94 77 827 7584</span>
                     </a>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -433,7 +426,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item rounded overflow-hidden pb-4">
                         <img class="img-fluid mb-4" src="img/team-1.jpg" alt="">
-                        <h5>Alex Robin</h5>
+                        <h5>Ajith Senadeera</h5>
                         <span class="text-primary">Founder & CEO</span>
                         <ul class="team-social">
                             <li><a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a></li>
@@ -446,7 +439,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item rounded overflow-hidden pb-4">
                         <img class="img-fluid mb-4" src="img/team-2.jpg" alt="">
-                        <h5>Adam Crew</h5>
+                        <h5>Vineth Senadeera</h5>
                         <span class="text-primary">Co Founder</span>
                         <ul class="team-social">
                             <li><a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a></li>
@@ -459,7 +452,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item rounded overflow-hidden pb-4">
                         <img class="img-fluid mb-4" src="img/team-3.jpg" alt="">
-                        <h5>Boris Johnson</h5>
+                        <h5>Kelum Nawaratne</h5>
                         <span class="text-primary">Executive Manager</span>
                         <ul class="team-social">
                             <li><a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a></li>
@@ -472,7 +465,7 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item rounded overflow-hidden pb-4">
                         <img class="img-fluid mb-4" src="img/team-4.jpg" alt="">
-                        <h5>Robert Jordan</h5>
+                        <h5>Sunil Perera</h5>
                         <span class="text-primary">Digital Marketer</span>
                         <ul class="team-social">
                             <li><a class="btn btn-square" href=""><i class="fab fa-facebook-f"></i></a></li>
