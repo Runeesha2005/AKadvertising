@@ -18,6 +18,25 @@
     font-weight: 500;
 }
 
+.text-primary {
+    color: #eb722b !important;
+}
+
+.bg-primary {
+    background-color: #eb722b !important;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #e59261;
+    border-color: #e59261;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #eb722b;
+    border-color: #eb722b;
+}
 
 /*** Spinner ***/
 #spinner {

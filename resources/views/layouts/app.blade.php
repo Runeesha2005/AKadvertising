@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+        <title>{{ config('app.name', 'AKadvetising') }}</title>
 
         <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon">
@@ -73,7 +73,7 @@
 
         <x-banner />
 
-        <div class="min-h-screen bg-gray-100">
+        <div class="bg-gray-100">
             @livewire('navigation-menu')
 
             <!-- Page Heading -->
@@ -148,7 +148,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="fw-medium text-light" href="#">CatsEye Creations</a>, All Right Reserved.
+                        &copy; <a class="fw-medium text-light" href="#">AK Advertising</a>, All Right Reserved.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->

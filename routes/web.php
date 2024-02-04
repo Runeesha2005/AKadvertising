@@ -54,15 +54,51 @@ Route::get('/about', function () {
 });
 
 
+Route::get('/services', function () {
+    return view('services');
+});
+
+
+// Route::middleware([
+//     'auth:sanctum',
+//     config('jetstream.auth_session'),
+//     'verified',
+// ])->group(function () {
+//     Route::get('/dashboard', function () {
+//         return view('dashboard');
+//     })->name('dashboard');
+// });
+
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
     'verified',
 ])->group(function () {
+
+
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+
+    Route::resource(
+        'product-category',
+        \App\Http\Controllers\ProductCategoryController::class
+    );
+
+    Route::resource(
+        'user',
+        \App\Http\Controllers\UserController::class,
+        
+    );
+
+   
+    
 });
 
 
 
+
+Route::get('aa', function () {
+    return view('aa');
+});
