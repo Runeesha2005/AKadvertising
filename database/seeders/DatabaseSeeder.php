@@ -1,33 +1,52 @@
 <?php
+//
+//namespace Database\Seeders;
+//
+//// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+//use Illuminate\Database\Seeder;
+//
+//class DatabaseSeeder extends Seeder
+//{
+//    /**
+//     * Seed the application's database.
+//     */
+//    public function run(): void
+//    {
+////        \App\Models\User::factory(10)->create();
+////
+////        \App\Models\User::factory()->create([
+////            'name' => 'Admin',
+////            'email' => 'admin@admin.com',
+////            'password' => bcrypt('admin'),
+////            'role' => 1
+//        // Other seeders
+//        $this->call(AdminUserSeeder::class);
+////        ]);
+//
+//        $this->call([
+//            ProductCategorySeeder::class,
+//            //ProductSeeder::class,
+//        ]);
+//
+//
+//
+//
+//    }
+//}
+
 
 namespace Database\Seeders;
 
-// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
 {
-    /**
-     * Seed the application's database.
-     */
-    public function run(): void
+    public function run()
     {
-        \App\Models\User::factory(10)->create();
-
-        \App\Models\User::factory()->create([
-            'name' => 'Admin',
-            'email' => 'admin@admin.com',
-            'password' => bcrypt('admin'),
-            'role' => 1
-        ]);
-
+        // Run the roles and permissions seeder first
         $this->call([
-            ProductCategorySeeder::class,
-            //ProductSeeder::class,
+            RolesAndPermissionsSeeder::class,
+            AdminUserSeeder::class,
         ]);
-
-
-
-       
     }
 }

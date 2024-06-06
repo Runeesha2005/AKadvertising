@@ -18,7 +18,7 @@ class ProductSeeder extends Seeder
             "Event Spaces" => array("Confernce Halls", "Banquet Halls", "Outdoor Venues", "Meeting Rooms", "Theater Spaces"),
             "Event Decor" => array("Floral Arrangements", "Table Decorations", "Lighting Solutions", "Themed Decor","Backdrop Designs"),
             "Audio-Visual Equipment" => array("Projectors", "Sound Systems", "Microphones", "LED Screens", "Stage Lighting"),
-            "Event Equipment" => array("Digital Marketing", "Social Media Campaigns", "Printed Materials", "Promotional Items", "Event Branding"),
+            "Event Equipment" => array("Digital Marketing", "Social Media campaign", "Printed Materials", "Promotional Items", "Event Branding"),
             "Entertainment Services" => array("Live Bands", "DJ Services", "Magicians", "Photo Booths", "Interactive Games"),
             "Catering Services" => array("Catering Packages", "Beverage Services", "Food Stations","Desert Tables","Specialty Cuisines"),
             "Event Planning and Coordination" => array("Full-Service Planning", "Day-Of Coordination", "Vendor Management", "Timeline Creation","Budget Planning"),
