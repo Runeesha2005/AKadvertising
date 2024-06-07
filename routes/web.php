@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CampaignController;
 //use App\Http\Controllers\ClientController;
@@ -91,16 +92,13 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 
-    Route::resource(
-        'product-category',
-        \App\Http\Controllers\ProductCategoryController::class
-    );
+//    Route::resource('product-category', \App\Http\Controllers\ProductCategoryController::class);
 
-    Route::resource(
-        'user',
-        \App\Http\Controllers\UserController::class,
-
-    );
+//    Route::resource(
+//        'user',
+//        \App\Http\Controllers\UserController::class,
+//
+//    );
 
 
 
@@ -109,87 +107,35 @@ Route::middleware([
 
 
 
+//Route::resource(
+//    'campaign',
+//    \App\Http\Controllers\CampaignController::class
+//);
 
-//
-//Route::get('/campaigns', [CampaignController::class, 'index']);
-//Route::get('/campaigns/create', [CampaignController::class, 'create']);
-//Route::post('/campaigns', [CampaignController::class, 'store']);
-//Route::get('/campaigns/{campaign}', [CampaignController::class, 'show']);
-//Route::get('/campaigns/{campaign}/edit', [CampaignController::class, 'edit']);
-//Route::put('/campaigns/{campaign}', [CampaignController::class, 'update']);
-//Route::delete('/campaigns/{campaign}', [CampaignController::class, 'destroy']);
-//
+//Route::resource('clients', ClientController::class);
 
 
 
-//Route::get('/campaigns/create', [CampaignController::class, 'create'])->name('campaign.create');
-//Route::get('/campaigns', [CampaignController::class, 'store'])->name('campaigns.store');
+
+Route::middleware(['admin']) ->group(function () {
+    Route::resource('clients', ClientController::class);
+    Route::resource('user', UserController::class);
+    Route::resource('projects', ProjectController::class);
+    Route::resource('campaign', \App\Http\Controllers\CampaignController::class);
+    Route::resource('communication-logs', CommunicationLogController::class);
+    Route::get('/admin/dashboard', [AdminController::class, 'index'])->name('admin.dashboard') ->middleware('auth');
+    Route::resource('product-category', \App\Http\Controllers\ProductCategoryController::class);
+    Route::get('/analysis', [AnalysisController::class, 'showDashboard'])->name('analysis.dashboard');
 
 
-//Route::get('/campaign/{id}', [CampaignController::class, 'show'])->name('campaign.show');
-//
-//
-//Route::get('/campaigns', [CampaignController::class, 'index'])->name('campaigns.index');
-//
-//Route::get('/campaigns/create', [CampaignController::class, 'create'])->name('campaigns.create');
-//
-//
-//
-//Route::get('/campaigns/create', [CampaignController::class, 'create'])->name('campaigns.create');
-//Route::get('/campaigns/edit', [CampaignController::class, 'edit'])->name('campaign.edit');
-//Route::get('/campaigns/destroy', [CampaignController::class, 'destroy'])->name('campaign.destroy');
-//Route::get('/campaigns/store', [CampaignController::class, 'store'])->name('campaign.store');
-//
-//
-//Route::resource('campaigns', CampaignController::class);
+});
+
+//Route::resource('projects',
+//    ProjectController::class
+//);
 
 
-//
-//// Display a listing of the campaigns
-//Route::get('/campaigns', [CampaignController::class, 'index'])->name('campaign.index');
-//
-//// Show the form for creating a new campaign
-////Route::get('/campaigns/create', [CampaignController::class, 'create'])->name('campaigns.create');
-//Route::get('/campaigns/create', [CampaignController::class, 'create'])->name('campaign.create');
-//
-//
-//// Store a newly created campaign in storage
-//Route::post('/campaigns/{campaign}', [CampaignController::class, 'store'])->name('campaign.store');
-//
-//
-//// Display the specified campaign
-//Route::get('/campaigns/{campaign}', [CampaignController::class, 'show'])->name('campaigns.show');
-//
-//// Show the form for editing the specified campaign
-//Route::get('/campaigns/{campaign}/edit', [CampaignController::class, 'edit'])->name('campaigns.edit');
-//
-//// Update the specified campaign in storage
-//Route::put('/campaigns/{campaign}', [CampaignController::class, 'update'])->name('campaigns.update');
-//
-//// Remove the specified campaign from storage
-//Route::delete('/campaigns/{campaign}', [CampaignController::class, 'destroy'])->name('campaigns.destroy');
-//
-//
-
-
-Route::resource(
-    'campaign',
-    \App\Http\Controllers\CampaignController::class
-);
-
-Route::resource('clients',
-    ClientController::class
-);
-
-
-Route::resource('projects',
-    ProjectController::class
-);
-
-
-Route::resource('communication-logs',
-    CommunicationLogController::class
-);
+//Route::resource('communication-logs', CommunicationLogController::class);
 
 
 
@@ -207,22 +153,25 @@ Route::get('/paypal-test-success', [PayPalController::class, 'captureTransaction
 //Route::get('/analytics', [App\Http\Controllers\AnalyticsController::class, 'index']);
 
 
-Route::resource('analytics',
-    AnalyticsController::class
-);
+//Route::resource('analytics',
+//    AnalyticsController::class
+//);
 
 
 
-// routes/web.php
 
 
 
-Route::post('/consultation-request', [ConsultationRequestController::class, 'store'])->name('consultation-request.store');
+
+//Route::post('/consultation-request', [ConsultationRequestController::class, 'store'])->name('consultation-request.store');
 
 
-// routes/web.php
 
-Route::get('/admin/dashboard', [AdminController::class, 'index'])->name('admin.dashboard');
+//consultation request
+//Route::get('/admin/dashboard', [AdminController::class, 'index'])->name('admin.dashboard') ->middleware('auth');
+
+
+
 
 
 // Route for the consultation request form submission
@@ -236,22 +185,22 @@ Route::get('/thankyou', function () {
 
 
 
-Route::get('/analysis', [AnalysisController::class, 'showDashboard'])->name('analysis.dashboard');
+//Route::get('/analysis', [AnalysisController::class, 'showDashboard'])->name('analysis.dashboard');
 
 
-
-Route::group(['middleware' => ['role:' . Role::SuperAdministrator->name]], function () {
-    Route::get('/admin', function () {
-        // Only accessible by users with the SuperAdministrator role
-    });
-});
-
-Route::group(['middleware' => ['permission:edit articles']], function () {
-    Route::get('/edit-article', function () {
-        // Only accessible by users with the edit articles permission
-    });
-});
-
+//
+//Route::group(['middleware' => ['role:' . Role::SuperAdministrator->name]], function () {
+//    Route::get('/admin', function () {
+//        // Only accessible by users with the SuperAdministrator role
+//    });
+//});
+//
+//Route::group(['middleware' => ['permission:edit articles']], function () {
+//    Route::get('/edit-article', function () {
+//        // Only accessible by users with the edit articles permission
+//    });
+//});
+//
 
 
 
@@ -271,3 +220,7 @@ Route::group(['middleware' => ['auth']], function () {
 //Route::middleware(['auth'])->group(function () {
 //    Route::get('/dashboard', [UserDashboardController::class, 'index'])->name('dashboard');
 //});
+
+
+//Route::get('/consultation-request', [ConsultationRequestController::class, 'create'])->name('consultation-request.create');
+//Route::post('/consultation-request', [ConsultationRequestController::class, 'store'])->name('consultation-request.store');

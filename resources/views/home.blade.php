@@ -16,9 +16,8 @@
                                     </p>
                                     <h1 class="display-1 text-white mb-4 animated slideInRight">Unlock Your Business
                                         Growth</h1>
-                                    <a href=""
-                                        class="btn btn-primary rounded-pill py-3 px-5 animated slideInRight">Explore
-                                        More</a>
+                                    <a href="/services"
+                                        class="btn btn-primary rounded-pill py-3 px-5 animated slideInRight">Explore our services</a>
                                 </div>
                             </div>
                         </div>
@@ -34,9 +33,8 @@
                                     </p>
                                     <h1 class="display-1 text-white mb-5 animated slideInLeft">Ready to Grow Your
                                         Business</h1>
-                                    <a href=""
-                                        class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Explore
-                                        More</a>
+                                    <a href="/services"
+                                        class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">Explore our services</a>
                                 </div>
                             </div>
                         </div>
@@ -347,172 +345,8 @@
     <!-- Project End -->
 
 
-    <!-- Quote Start -->
-{{--    <div class="container-xxl py-5">--}}
-{{--        <div class="container">--}}
-{{--            <div class="row g-5">--}}
-{{--                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">--}}
-{{--                    <p class="fs-5 fw-medium text-primary">Schedule a Consultation</p>--}}
-{{--                    <h1 class="display-5 mb-4">Need Our Expert Help? We're Here!</h1>--}}
-{{--                    <p>Learn how we can help your business thrive online by meeting with our team.</p>--}}
-{{--                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et--}}
-{{--                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</p>--}}
-{{--                    <a class="d-inline-flex align-items-center rounded overflow-hidden border border-primary" href="">--}}
-{{--                        <span class="btn-lg-square bg-primary" style="width: 55px; height: 55px;">--}}
-{{--                            <i class="fa fa-phone-alt text-white"></i>--}}
-{{--                        </span>--}}
-{{--                        <span class="fs-5 fw-medium mx-4">+94 77 827 7584</span>--}}
-{{--                    </a>--}}
-{{--                </div>--}}
-{{--                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">--}}
-{{--                    <h2 class="mb-4">Schedule a Consultation</h2>--}}
-{{--                    <div class="row g-3">--}}
-{{--                        <div class="col-sm-6">--}}
-{{--                            <div class="form-floating">--}}
-{{--                                <input type="text" class="form-control" id="name" placeholder="Your Name">--}}
-{{--                                <label for="name">First Name</label>--}}
-{{--                            </div>--}}
 
-{{--                        </div>--}}
-{{--                        <div class="col-sm-6">--}}
-{{--                            <div class="form-floating">--}}
-{{--                                <input type="email" class="form-control" id="mail" placeholder="Your Email">--}}
-{{--                                <label for="mail">Last Name</label>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                        <div class="row g-3">--}}
-{{--                            <div class="col-sm-6">--}}
-{{--                                <div class="form-floating">--}}
-{{--                                    <input type="text" class="form-control" id="name" placeholder="Your Name">--}}
-{{--                                    <label for="name">Email Address</label>--}}
-{{--                                </div>--}}
 
-{{--                            </div>--}}
-
-{{--                            <div class="col-sm-6">--}}
-{{--                                <div class="form-floating">--}}
-{{--                                    <input type="email" class="form-control" id="mail" placeholder="Your Email">--}}
-{{--                                    <label for="mail">Company Name</label>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-
-{{--                        <div class="col-sm-6">--}}
-{{--                            <div class="form-floating">--}}
-{{--                                <input type="text" class="form-control" id="mobile" placeholder="Your Mobile">--}}
-{{--                                <label for="mobile">Telephone Number</label>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                        <div class="col-sm-6">--}}
-{{--                            <div class="form-floating">--}}
-{{--                                <select class="form-select" id="service">--}}
-{{--                                    <option selected>Digital Marketing</option>--}}
-{{--                                    <option value="">Social Marketing</option>--}}
-{{--                                    <option value="">Content Marketing</option>--}}
-{{--                                    <option value="">E-mail Marketing</option>--}}
-{{--                                </select>--}}
-{{--                                <label for="service">Choose A Service</label>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                        <div class="col-12">--}}
-{{--                            <div class="form-floating">--}}
-{{--                                <textarea class="form-control" placeholder="Leave a message here" id="message"--}}
-{{--                                    style="height: 130px"></textarea>--}}
-{{--                                <label for="message">Message</label>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                        <div class="col-12 text-center">--}}
-{{--                            <button class="btn btn-primary w-100 py-3" type="submit">Submit Now</button>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-    <!-- resources/views/your-template.blade.php -->
-
-{{--    <div class="container-xxl py-5">--}}
-{{--        <div class="container">--}}
-{{--            <div class="row g-5">--}}
-{{--                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">--}}
-{{--                    <p class="fs-5 fw-medium text-primary">Schedule a Consultation</p>--}}
-{{--                    <h1 class="display-5 mb-4">Need Our Expert Help? We're Here!</h1>--}}
-{{--                    <p>Learn how we can help your business thrive online by meeting with our team.</p>--}}
-{{--                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et--}}
-{{--                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</p>--}}
-{{--                    <a class="d-inline-flex align-items-center rounded overflow-hidden border border-primary" href="">--}}
-{{--                    <span class="btn-lg-square bg-primary" style="width: 55px; height: 55px;">--}}
-{{--                        <i class="fa fa-phone-alt text-white"></i>--}}
-{{--                    </span>--}}
-{{--                        <span class="fs-5 fw-medium mx-4">+94 77 827 7584</span>--}}
-{{--                    </a>--}}
-{{--                </div>--}}
-{{--                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">--}}
-{{--                    <h2 class="mb-4">Schedule a Consultation</h2>--}}
-{{--                    @if (session('success'))--}}
-{{--                        <div class="alert alert-success">--}}
-{{--                            {{ session('success') }}--}}
-{{--                        </div>--}}
-{{--                    @endif--}}
-{{--                    <form action="{{ route('consultation-request.store') }}" method="POST">--}}
-{{--                        @csrf--}}
-{{--                        <div class="row g-3">--}}
-{{--                            <div class="col-sm-6">--}}
-{{--                                <div class="form-floating">--}}
-{{--                                    <input type="text" class="form-control" id="first_name" name="first_name" placeholder="Your First Name" required>--}}
-{{--                                    <label for="first_name">First Name</label>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                            <div class="col-sm-6">--}}
-{{--                                <div class="form-floating">--}}
-{{--                                    <input type="text" class="form-control" id="last_name" name="last_name" placeholder="Your Last Name" required>--}}
-{{--                                    <label for="last_name">Last Name</label>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                            <div class="col-sm-6">--}}
-{{--                                <div class="form-floating">--}}
-{{--                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>--}}
-{{--                                    <label for="email">Email Address</label>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                            <div class="col-sm-6">--}}
-{{--                                <div class="form-floating">--}}
-{{--                                    <input type="text" class="form-control" id="company_name" name="company_name" placeholder="Your Company Name">--}}
-{{--                                    <label for="company_name">Company Name</label>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                            <div class="col-sm-6">--}}
-{{--                                <div class="form-floating">--}}
-{{--                                    <input type="text" class="form-control" id="telephone" name="telephone" placeholder="Your Telephone Number" required>--}}
-{{--                                    <label for="telephone">Telephone Number</label>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                            <div class="col-sm-6">--}}
-{{--                                <div class="form-floating">--}}
-{{--                                    <select class="form-select" id="service" name="service" required>--}}
-{{--                                        <option selected>Digital Marketing</option>--}}
-{{--                                        <option value="Social Marketing">Social Marketing</option>--}}
-{{--                                        <option value="Content Marketing">Content Marketing</option>--}}
-{{--                                        <option value="E-mail Marketing">E-mail Marketing</option>--}}
-{{--                                    </select>--}}
-{{--                                    <label for="service">Choose A Service</label>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                            <div class="col-12">--}}
-{{--                                <div class="form-floating">--}}
-{{--                                    <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 130px"></textarea>--}}
-{{--                                    <label for="message">Message</label>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                            <div class="col-12 text-center">--}}
-{{--                                <button class="btn btn-primary w-100 py-3" type="submit">Submit Now</button>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                    </form>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-    <!-- Your form view (for example, in resources/views/welcome.blade.php) -->
 
     <div class="container-xxl py-5">
         <div class="container">
@@ -536,7 +370,7 @@
                             {{ session('success') }}
                         </div>
                     @endif
-                    <form action="{{ route('consultation-request.store') }}" method="POST">
+                    <form action="{{ route('admin.dashboard') }}" method="POST">
                         @csrf
                         <div class="row g-3">
                             <div class="col-sm-6">

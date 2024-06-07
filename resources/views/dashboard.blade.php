@@ -1,18 +1,4 @@
 <x-app-layout>
-{{--    <x-slot name="header">--}}
-{{--        <h2 class="font-semibold text-xl text-gray-800 leading-tight">--}}
-{{--            {{ __('Dashboard') }}--}}
-{{--        </h2>--}}
-{{--    </x-slot>--}}
-
-{{--    <div class="py-12">--}}
-{{--        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">--}}
-{{--            <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">--}}
-{{--               --}}{{--<x-welcome />--}}
-{{--               @livewire('Counter')--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
 
 
     <div class="bg-gray-100 min-h-screen">
@@ -45,6 +31,18 @@
                 <!-- Button for Users -->
                 <a href="{{ route('user.index') }}" class="block text-center rounded-lg bg-orange-500 px-6 py-4 text-white font-semibold hover:bg-orange-600">
                     Users
+                </a>
+
+                <a href="{{ route('admin.dashboard') }}" class="block text-center rounded-lg bg-orange-500 px-6 py-4 text-white font-semibold hover:bg-orange-600">
+                    Consultation Requests
+                </a>
+
+                <a href="{{ route('analysis.dashboard') }}" class="block text-center rounded-lg bg-orange-500 px-6 py-4 text-white font-semibold hover:bg-orange-600">
+                    Analysis Dashboard
+                </a>
+
+                <a href="{{ route('clients.index') }}" class="block text-center rounded-lg bg-orange-500 px-6 py-4 text-white font-semibold hover:bg-orange-600">
+                    Clients
                 </a>
             </div>
         </div>
